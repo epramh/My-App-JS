@@ -46,13 +46,52 @@ h1 {
   font-size: 1.5rem;
 }
 
+/* index */
 .container {
   display: flex;
   gap: 50px;
 }
 
-#posts {
+#msg {
+  color: red;
+}
+
+button:hover {
+  color: cadetblue;
+  background-color: blueviolet;
+}
+
+#post {
   width: 400px;
+}
+
+#post div {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.options {
+  display: flex;
+  gap: 25px;
+}
+
+table {
+  /* border-collapse: collapse; */
+  width: 100%;
+}
+
+td {
+  border:2px solid black;
+  text-align: center;
+} 
+
+.fas {
+  align-items: center;
+  bottom: 10px;
+  display: flex;
+  left: 160px;
+  position: relative;
 }
 
 i.fa-edit:hover {
@@ -65,22 +104,4 @@ i.fa-trash-alt:hover {
   cursor: pointer;
 }
 
-button:hover {
-  color: cadetblue;
-  background-color: blueviolet;
-}
-
-#posts div {
-  align-items: center;
-  display: flex;
-  justify-content: space-between;
-}
-
-.options {
-  display: flex;
-  gap: 25px;
-}
-
-#msg {
-  color: red;
-}
+/* page2 */
