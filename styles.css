@@ -82,16 +82,23 @@ table {
 }
 
 td {
-  border:2px solid black;
+  border: 2px solid green;
   text-align: center;
-} 
+}
 
+tr:nth-child(even) {
+  background-color: #b0d1e4;
+}
+
+tr:nth-child(odd) {
+  background-color: #6aabd1;
+} 
 .fas {
-  align-items: center;
   bottom: 10px;
   display: flex;
   left: 160px;
   position: relative;
+  text-align: center;
 }
 
 i.fa-edit:hover {
