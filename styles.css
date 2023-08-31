@@ -46,6 +46,19 @@ h1 {
   font-size: 1.5rem;
 }
 
+button {
+  color: green;
+  border-color: green;
+  border-radius: 20px;
+  font-weight: bold;
+  padding: 10px 20px;
+}
+
+button:hover {
+  color: cadetblue;
+  background-color: blueviolet;
+}
+
 /* index */
 .container {
   display: flex;
@@ -54,11 +67,6 @@ h1 {
 
 #msg {
   color: red;
-}
-
-button:hover {
-  color: cadetblue;
-  background-color: blueviolet;
 }
 
 #post {
@@ -117,7 +125,18 @@ details {
 }
 
 input {
-  border: 1px solid #ccc;
+  border: 1px solid green;
   border-radius: 20px;
+  padding: 8px;
+  width: 40%;
+}
+
+label {
+  color:green;
+  font-weight: bold;
+}
+
+label[for="Password"] {
+  margin: 20px;
 }
 
